@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BLESSING\\source\\repos\\Linear Equations\\LinearEquations\\Polynomial.csproj": {}
+    "C:\\Users\\BLESSING\\source\\repos\\blessingjarawani\\Polynomial-Functions\\Polynomial functions\\Polynomial functions\\Polynomial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BLESSING\\source\\repos\\Linear Equations\\LinearEquations\\Polynomial.csproj": {
+    "C:\\Users\\BLESSING\\source\\repos\\blessingjarawani\\Polynomial-Functions\\Polynomial functions\\Polynomial functions\\Polynomial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BLESSING\\source\\repos\\Linear Equations\\LinearEquations\\Polynomial.csproj",
+        "projectUniqueName": "C:\\Users\\BLESSING\\source\\repos\\blessingjarawani\\Polynomial-Functions\\Polynomial functions\\Polynomial functions\\Polynomial.csproj",
         "projectName": "Polynomial",
-        "projectPath": "C:\\Users\\BLESSING\\source\\repos\\Linear Equations\\LinearEquations\\Polynomial.csproj",
+        "projectPath": "C:\\Users\\BLESSING\\source\\repos\\blessingjarawani\\Polynomial-Functions\\Polynomial functions\\Polynomial functions\\Polynomial.csproj",
         "packagesPath": "C:\\Users\\BLESSING\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BLESSING\\source\\repos\\Linear Equations\\LinearEquations\\obj\\",
+        "outputPath": "C:\\Users\\BLESSING\\source\\repos\\blessingjarawani\\Polynomial-Functions\\Polynomial functions\\Polynomial functions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
