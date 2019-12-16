@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-namespace LinearEquations.Infrastructure.Shared.Processes
+namespace Polynomial.Infrastructure.Shared.Processes
 {
     public class PrintResultsHandler : BaseHandler
     {
@@ -35,20 +35,21 @@ namespace LinearEquations.Infrastructure.Shared.Processes
 
                 PrintPolynomialValues(request);
                 PrintDerivativeValues(request);
+                PrintRoot(request);
             }
 
             Console.WriteLine(request.Result);
             return base.Handle(request);
         }
 
-        private static void PrintPolynomialValues(ContextHandler request)
+        private  void PrintPolynomialValues(ContextHandler request)
         {
             request.Result += Environment.NewLine;
             request.Result += $"f(-1) = {request.poly1} {Environment.NewLine}";
             request.Result += $"f(0) = {request.poly2} {Environment.NewLine}";
             request.Result += $"f(1) = {request.poly3} {Environment.NewLine}";
         }
-        private static void PrintDerivativeValues(ContextHandler request)
+        private  void PrintDerivativeValues(ContextHandler request)
         {
            
             
@@ -72,6 +73,14 @@ namespace LinearEquations.Infrastructure.Shared.Processes
                 }
                 counter--;
             }
+        }
+
+        private void PrintRoot(ContextHandler request)
+        {
+            request.Result += Environment.NewLine;
+            request.Result += $"Looking for Root with Guess {request.InitialGuess} {Environment.NewLine}";
+            request.Result += $"Root Found for x is {request.Root}";
+
         }
     }
 }

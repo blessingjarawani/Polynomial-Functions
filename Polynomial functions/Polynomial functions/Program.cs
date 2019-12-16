@@ -1,6 +1,6 @@
-﻿using LinearEquations.Infrastructure.Shared.Processes;
-using LinearEquations.Infrastructure.Shared.Util;
-using LinearEquations.Models;
+﻿using Polynomial.Infrastructure.Shared.Processes;
+using Polynomial.Infrastructure.Shared.Util;
+using Polynomial.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -59,11 +59,13 @@ namespace LinearEquations
                 var printResultsHandler = new PrintResultsHandler();
                 var calculatePolyPointValues = new CalculatePolyPointValuesHandler();
                 var calculateDerivativeHandler = new CalculateDerivativeHandler();
+                var newtonHandler = new NewtonHandler();
                 forwardEliminationHandler
                     .SetNext(checkIfThereIsSolutionHandler)
                     .SetNext(backwardElimininationHandler)
                     .SetNext(calculatePolyPointValues)
                     .SetNext(calculateDerivativeHandler)
+                    .SetNext(newtonHandler)
                     .SetNext(printResultsHandler);
                 forwardEliminationHandler.Handle(contextHandler);
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinearEquations.Infrastructure.Shared.Util
+namespace Polynomial.Infrastructure.Shared.Util
 {
     public  class Util
     {

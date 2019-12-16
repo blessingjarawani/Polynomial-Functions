@@ -1,11 +1,12 @@
-﻿using LinearEquations.Infrastructure.Shared.Interfaces;
+﻿using Polynomial.Infrastructure.Shared.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LinearEquations.Infrastructure.Shared.Processes
+namespace Polynomial.Infrastructure.Shared.Processes
 {
+
     public class BaseHandler : IHandler
     {
 

@@ -1,9 +1,10 @@
-﻿using LinearEquations.Models;
+﻿using Polynomial.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinearEquations.Infrastructure.Shared.Processes
+namespace Polynomial.Infrastructure.Shared.Processes
+
 {
     public class ContextHandler
     {
@@ -14,5 +15,7 @@ namespace LinearEquations.Infrastructure.Shared.Processes
         public List<double> Derivative { get; set; }
         public bool Errors { get; set; }
         public string Result { get; set; }
+        public double Root { get; set; }
+        public double InitialGuess { get; set; }
     }
 }

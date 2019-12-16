@@ -1,9 +1,10 @@
-﻿using LinearEquations.Infrastructure.Shared.Processes;
+﻿using Polynomial.Infrastructure.Shared.Processes;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinearEquations.Infrastructure.Shared.Interfaces
+
+namespace Polynomial.Infrastructure.Shared.Interfaces
 {
     public interface IHandler
     {

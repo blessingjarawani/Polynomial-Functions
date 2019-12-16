@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace LinearEquations.Infrastructure.Shared.Processes
+namespace Polynomial.Infrastructure.Shared.Processes
 {
     public class CalculatePolyPointValuesHandler : BaseHandler
     {

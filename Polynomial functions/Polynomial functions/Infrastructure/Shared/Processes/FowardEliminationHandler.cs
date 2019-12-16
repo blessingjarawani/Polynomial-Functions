@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LinearEquations.Infrastructure.Shared.Processes
+namespace Polynomial.Infrastructure.Shared.Processes
 {
+
     public class FowardEliminationHandler : BaseHandler
     {
         public override ContextHandler Handle(ContextHandler request)
